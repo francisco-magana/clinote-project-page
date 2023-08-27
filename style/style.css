@@ -1,6 +1,11 @@
-.clinote-title {
+.title {
   text-align: center;
   font-size: 64px;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-top: 12px;
 }
 
 .fancy-description {

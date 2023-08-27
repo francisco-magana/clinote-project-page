@@ -9,6 +9,8 @@ body {
   background-color: #0b0e00;
   color: white;
   font-size: 16px;
+  text-align: center;
+  margin: auto 15vw;
 }
 
 h1, h2, h3 {
