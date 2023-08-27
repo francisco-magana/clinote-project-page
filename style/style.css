@@ -9,5 +9,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
+  margin: auto;
   text-align: center;
+  width: 50vw;
+}
+
+.gif-content {
+  display: block;
+  margin: 4rem auto; 
+  width: 50%;
+}
+
+@media screen and (max-width: 872px) {
+  .gif-content {
+    width: 90%;
+  }
 }
