@@ -14,7 +14,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
-  margin: auto;
+  margin: 42px auto;
   text-align: center;
   width: 50vw;
 }
@@ -25,8 +25,34 @@
   width: 50%;
 }
 
+.github-link {
+  color: #0e0b00;
+  margin-top: 48px;
+  text-decoration: none;
+  background-color: white;
+  padding: 16px;
+  border-radius: 24px;
+  font-weight: bold;
+  transition: .2s;
+  white-space: nowrap;
+}
+
+.github-link:hover {
+  font-size: 17px;
+  background-color: #66ccbe;
+  color: white;
+}
+
 @media screen and (max-width: 872px) {
   .gif-content {
-    width: 90%;
+    width: 95%;
+  }
+
+  .github-link {
+    font-size: 14px;
+  }
+
+  .github-link:hover {
+    font-size: 15px;
   }
 }
