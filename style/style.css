@@ -1,0 +1,13 @@
+.clinote-title {
+  text-align: center;
+  font-size: 64px;
+}
+
+.fancy-description {
+  background: #66CCBE;
+  background: radial-gradient(circle farthest-corner at center center, #66CCBE 34%, #BAB0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  text-align: center;
+}
